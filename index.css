@@ -1,0 +1,146 @@
+:root{
+    --main-black:#000000;
+    --main-white:#f0f0f0;
+    --main-blue: #0f63ff;
+    --main-gray:#d3d3d3;
+    
+    }
+
+    /*Base reset */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        box-sizing: border-box;
+        height: 100%;
+       font-size: 16px;
+    }
+
+    body{
+        display: block;
+    }
+
+    ul{
+        list-style: none;
+        
+    }
+
+    li{
+        display: inline;
+        /* float: left; */
+    }
+
+    a{
+        text-decoration: none;
+        color: var(--main-black);
+       
+    }
+
+    img{
+        display: block;
+        margin-top:100px;
+        margin-left:auto;
+        margin-right:auto;
+        width: auto;
+        
+        
+    }
+    .nav_header {
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+       
+      }
+
+      .nav-list {
+        display: flex;
+        margin-right: 2rem;
+      }
+
+      .nav-list a {
+        display: block;
+        
+        padding: 1rem;
+      }
+
+      .nav-list a:hover {
+        color: var(--main-blue);
+      }
+  
+
+    .gcse-search{
+        /* display: flex;
+        flex: 100px;
+     
+        margin-top: 10px; */
+        justify-content: center;
+        flex: 1;
+        display: flex;
+        padding: 5px 8px 0 16px;
+        padding-left: 14px;
+        
+    }
+
+    .language{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .language a{
+        padding-left: 10px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+    }
+
+    .btn .btn-a {
+        margin-right: 16px;
+        padding: 10px;
+    }
+
+    .btn .btn-b{
+        padding: 10px;
+    }
+
+    /* p{
+        display: flex;
+        justify-content: center;
+    } */
+
+    footer{
+       
+        position: fixed;
+        bottom: 0;
+        left: 0;
+         width: 100%;  
+         background: #f2f2f2; 
+         padding:5px;
+
+    }
+
+    .country{
+        background: #f2f2f2;
+        line-height: 40px;
+        min-width: 980px;
+        border-top: 1px solid #dadce0;
+        min-width: 400px;
+      
+    }
+
+    .bottom_nav{
+        display: flex;
+        
+    }
+
+    
